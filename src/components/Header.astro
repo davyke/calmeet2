@@ -1,0 +1,73 @@
+---
+import Logo from "../Images/brain_wiz.png"
+// import '@animxyz/core';
+
+
+---
+
+<header class="header" >
+    <div class="logo">
+        <img src={Logo} alt="calmeet logo">
+        <h1>Calculus Meet</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Team</a></li>
+            <li><a href="/videoroom/">About</a></li>
+            <li><a href="/">Pricing</a></li>
+        </ul>
+    </nav>
+   
+</header>
+<style>
+
+    .header{
+        width: 100%;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        max-height: 4.2rem;
+         position: fixed;
+         /* background-color: gold; */
+        left: 0; 
+        top:.5rem; 
+        
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+    }
+    .logo img {
+        width: 6rem;
+    } 
+    .logo h1{
+        font-family:'Montez', cursive;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    nav{
+        display: flex;
+        width: 40%;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width:100%;
+        padding-right: 1rem;
+    }
+    nav ul a{
+        color:white;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+
+
+</style>

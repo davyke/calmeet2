@@ -1,0 +1,90 @@
+---
+import Group from "../Images/Group Presentation_Monochromatic.png"
+---
+<section class="hero">
+    <div class="banner">
+        <h1>Welcome to the annual calculus meet</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam provident quos quam sint dolore numquam reprehenderit excepturi ipsum voluptates facilis dolorem temporibus pariatur iure eos laudantium, sunt sit est deserunt!pisicing elit. Laboriosam provident quos quam sint dolore numquam reprehenderit excepturi ipsum voluptates facilis dolorem temporibus pariatur iure eos laudantium, sunt sit est deserunt!</p>
+        <div class="button">
+            <input class="meet" placeholder="@ Email"/>
+            <div class="join"><a href="/videoroom/">Join Meet Now</a></div>
+        </div>
+    </div>
+    <div class="heropic">
+        <img src={Group} alt="group pic">
+
+    </div>
+</section>
+<style>
+    .hero{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        /* background-color: yellow; */
+    }
+    .banner{
+        width: 55%;
+        /* background-color: red; */
+        padding-left: 2rem;
+        margin-top: 5rem;
+        /* padding-bottom: 3rem; */
+    }
+    .banner h1{
+        font-size: 3rem;
+        font-weight: 300;
+        color: white;
+        width: 70%;
+
+    }
+    .banner p{
+        color:white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .button{
+        display: flex;
+        margin-top: 4rem;
+        justify-content: space-between;
+        width: 100%;
+        /* padding-left: 1rem; */
+        padding-right: 1rem;
+        /* background-color:greenyellow; */
+        /* padding-bottom: 3rem; */
+    }
+    .button .meet{
+        width: 40%;
+        height: 3rem;
+        border: none;
+        border-radius: .5rem;
+        background-color: rgb(59, 54, 54);
+        font-size: 1rem;
+        padding-left:1rem ;
+        color:white;
+
+    }
+    .button .join{
+        width: 40%;
+        height: 3rem;
+        border: none;
+        border-radius:.5rem;
+        padding-right: 1rem;
+        background-color: aqua;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+
+
+    }
+    .button .join a{
+        text-decoration: none;
+        color:black;
+        /* margin-top: 1rem; */
+    }
+    .heropic{
+        padding-left: 1rem;
+        margin-top: 4rem;
+    }
+</style>

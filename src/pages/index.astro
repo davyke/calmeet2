@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Promo from '../components/Promo.astro';
+import Prom from '../components/Prom';
+
+
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<Hero/>
+		<!-- <Promo/> -->
+		<Prom client:only="react"/>
+	</main>
+</Layout>
+
+<style>
+	main {
+		width: 100vw;
+	}
+	
+</style>
