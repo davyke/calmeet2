@@ -9,7 +9,7 @@ const VideoRoom= () => {
   const rtcProps = {
     appId: "417e32d68c42461181ba3eb1b4f0213d",
     channel: "Calculus", // your agora channel
-    token: '007eJxTYPCb4LRwqVWjYuplPVmxrY5H9bfGWedmVsxhf1QieNT+drICg4mheaqxUYqZRbKJkYmZoaGFYVKicWqSYZJJmoGRoXHKl2+JKQ2BjAzOLLHMjAwQCOJzMDgn5iSX5pQWMzAAAAgUHno=' // use null or skip if using app in testing mode
+    token: '007eJxTYDj6oOCXDnfd5fZbGz4wtHuUVC964GPvrp6bvruXcc+L/t0KDCaG5qnGRilmFskmRiZmhoYWhkmJxqlJhkkmaQZGhsYpcVdzUxoCGRlWsR5mZGSAQBCfg8E5MSe5NKe0mIEBACivIco=' // use null or skip if using app in testing mode
   };
   const callbacks = {
     EndCall: () => setVideoCall(false),
